@@ -1,6 +1,6 @@
 import gym
 import numpy as np
-from stable_baselines3 import SAC, TD3, A2C, PPO
+from stable-baselines3 import SAC, TD3, A2C, PPO
 import mujoco
 import os
 import argparse
