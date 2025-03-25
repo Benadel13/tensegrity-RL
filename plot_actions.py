@@ -51,7 +51,7 @@ def plot_actions(saved_data_dir):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='what is the saved data directory called')
-    parser.add_argument('--saved_data', default="saved_data", type=str,
+    parser.add_argument('--saved_data', default="saved_data\TD3_forward", type=str,
                         help="the directory name that stores the saved data, default name is saved_data")
     
     args = parser.parse_args()
