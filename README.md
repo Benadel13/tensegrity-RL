@@ -1,5 +1,5 @@
 # tensegrity-RL
-A repository for training a tensegrity robot to move using reinforcement learning. The instructions for training a model fron scratch are given below, but for best results you can use the models in the "best_models_pretrained" folder without futher training. To view the results of the pretrained models, use the following commands.
+A repository for training a tensegrity robot to move using reinforcement learning. The instructions for training a model fron scratch are given below, but for best results you can use the models in the "best_models_pretrained" folder without futher training. To view the results of the pretrained models, use the following commands. For windows replace python3 with python (if using venv with conda).
 
 ```
 python3 run.py --test ./best_models_pretrained/forward/SAC_5500000.zip --simulation_seconds 100
